@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 1140px;
+    margin: 10px auto;
+}
+.continer{
+    width: 100%;
+    padding: 10px 0px;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+}
+.avater{
+    width: 200px;
+    padding: 1px 0;
+}
+.login .menu{
+    display: block;
+}
+.login .menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 0px;
+    font-size: 16px;
+   font-weight: 400;
+   padding: 7px;
+   text-transform: capitalize;
+}
+.bottom{
+    display: block;
+    margin: 20px 0px;
+}
+.bottom .btn-primary{
+    background: #0e72cc;
+    color: #fff;
+    padding: 10px 20px;
+}
+.btn-primary .fa{
+    font-size: 15px;
+    line-height: 20px;
+    margin: 5px;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: #000;
+}
+.btn-primary:focus{
+    background-color: black;
+    color: chartreuse;
+}
+.canvas{
+    width: 500px;
+    margin: 40px ;
+    justify-content: center;
+    margin: 40px;
+
+}
+.formbox{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+.logform{
+    justify-content: center;
+}
+.logform h1{
+    font-size: 37px;
+    line-height: 40px;
+    font-weight: 800;
+    color: #0e72cc;
+}
+.logform h5{
+    font-size: 18px;
+    font-weight: 20;
+    color: #4f9ce0;
+}
+.batun{
+    width: 70px;
+}
+.batun .btn-primari{
+    width: 120px;
+    height: 40px;
+}
+.btn-primari{
+    font-size: 15px;
+    margin: 20px;
+    font-weight: 400;
+    background-color: #2079c7;
+    color: white;
+    border-radius: 7px;
+    border: ;
+}
+.btn-primari:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: rgb(255, 0, 221);
+}
+.btn-primari:focus{
+    background: rgb(0, 255, 60);
+    color: rgb(0, 0, 0);
+}
+.formbox{
+    display: f;
+}
+.avaters img{
+    width: 1200px;
+    align-items: center;
+}
+
